@@ -21,7 +21,7 @@ Add a full set of icons / favicons to your `Kotti`_ site.
 .. _build_status_stable: http://travis-ci.org/Kotti/kotti_icons
 
 This extension injects a set of icon links into the head section of Kotti's master templates.
-It also provides two views, registered for the root node of your site:
+It also registers two views for the root node of your site:
 
   - `browserconfig.xml`_
   - `manifest.json`_
