@@ -3,7 +3,23 @@ kotti_icons
 
 Add a full set of icons / favicons to your `Kotti`_ site.
 
-|build_status|_
+|pypi|_
+|downloads_month|_
+|license|_
+|build_status_stable|_
+
+.. |pypi| image:: https://img.shields.io/pypi/v/kotti_icons.svg?style=flat-square
+.. _pypi: https://pypi.python.org/pypi/kotti_icons/
+
+.. |downloads_month| image:: https://img.shields.io/pypi/dm/kotti_icons.svg?style=flat-square
+.. _downloads_month: https://pypi.python.org/pypi/kotti_icons/
+
+.. |license| image:: https://img.shields.io/pypi/l/kotti_icons.svg?style=flat-square
+.. _license: http://www.repoze.org/LICENSE.txt
+
+.. |build_status_stable| image:: https://img.shields.io/travis/Kotti/kotti_icons/production.svg?style=flat-square
+.. _build_status_stable: http://travis-ci.org/Kotti/kotti_icons
+
 
 This extension injects a set of icon links into the head section of Kotti's master templates.
 It also provides two views, registered for the root node of your site:
@@ -15,7 +31,6 @@ Development happens at https://github.com/Kotti/kotti_icons
 
 .. _browserconfig.xml: https://msdn.microsoft.com/de-de/library/dn320426(v=vs.85).aspx#specifying_tile_images_and_assets
 .. _manifest.json: https://w3c.github.io/manifest/#icons-member
-.. |build_status| image:: https://secure.travis-ci.org/Kotti/kotti_icons.png?branch=master
 .. _build_status: http://travis-ci.org/Kotti/kotti_icons
 .. _Kotti: http://pypi.python.org/pypi/Kotti
 
@@ -48,8 +63,11 @@ You can generate a full set of icons for your site by uploading a single image t
 Development
 ===========
 
+|build_status|_
+
 Contributions to kotti_icons are highly welcome.
 Just clone its `Github repository`_ and submit your contributions as pull requests.
 
+.. |build_status| image:: https://secure.travis-ci.org/Kotti/kotti_icons.png?branch=master
 .. _tracker: https://github.com/Kotti/kotti_icons/issues
 .. _Github repository: https://github.com/Kotti/kotti_icons
