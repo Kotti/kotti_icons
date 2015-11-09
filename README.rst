@@ -20,7 +20,6 @@ Add a full set of icons / favicons to your `Kotti`_ site.
 .. |build_status_stable| image:: https://img.shields.io/travis/Kotti/kotti_icons/production.svg?style=flat-square
 .. _build_status_stable: http://travis-ci.org/Kotti/kotti_icons
 
-
 This extension injects a set of icon links into the head section of Kotti's master templates.
 It also provides two views, registered for the root node of your site:
 
@@ -63,11 +62,13 @@ You can generate a full set of icons for your site by uploading a single image t
 Development
 ===========
 
-|build_status|_
+|build_status_master|_
+
+.. |build_status_master| image:: https://img.shields.io/travis/Kotti/kotti_icons/master.svg?style=flat-square
+.. _build_status_master: http://travis-ci.org/Kotti/kotti_icons
 
 Contributions to kotti_icons are highly welcome.
 Just clone its `Github repository`_ and submit your contributions as pull requests.
 
-.. |build_status| image:: https://secure.travis-ci.org/Kotti/kotti_icons.png?branch=master
 .. _tracker: https://github.com/Kotti/kotti_icons/issues
 .. _Github repository: https://github.com/Kotti/kotti_icons
