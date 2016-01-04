@@ -29,7 +29,7 @@ def manifest(request):
             ('192x192', '4.0')):
         result['icons'].append({
             'src': request.static_url(
-                'kotti_icons:static/android-icon-{}.png'.format(size)),
+                'kotti_icons:static/android-icon-{0}.png'.format(size)),
             'sizes': size,
             'type': 'img/png',
             'density': density,
